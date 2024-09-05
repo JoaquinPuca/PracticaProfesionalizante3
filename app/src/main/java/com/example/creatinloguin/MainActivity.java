@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
             TextView username =(TextView) findViewById(R.id.username);
         TextView password =(TextView) findViewById(R.id.contraseña);
 
