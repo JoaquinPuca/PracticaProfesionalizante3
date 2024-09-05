@@ -67,13 +67,30 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp" />
 
-    <TextView
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Registrobtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/forgotpass"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_marginTop="-423dp"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:text="Registrarme"
+        android:onClick="irRegitroActivity"
+        />
+
+
+    <TextView
         android:id="@+id/others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_above="@id/socialicons"
-        android:text="or sing in with"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="90dp"
+        android:text="¿No tenes cuenta?" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
